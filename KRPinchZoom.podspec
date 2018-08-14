@@ -25,12 +25,12 @@ Pinch zoom and pan image library for iOS apps, user KRPinchZoomImageView as clas
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'kamalrajvenkatesan' => 'kamalrajv3@gmail.com' }
-  s.source           = { :git => 'https://github.com/kamalrajvenkatesan/KRPinchZoom.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/kamalrajvenkatesan/KRPinchZoom.git', :branch =>"master", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'KRPinchZoom/Classes/**/*'
+  s.source_files = 'Source/*.swift'
   
   # s.resource_bundles = {
   #   'KRPinchZoom' => ['KRPinchZoom/Assets/*.png']
