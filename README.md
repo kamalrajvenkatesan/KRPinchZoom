@@ -7,7 +7,7 @@
 
 ## Features
 1. Pinch zoom and pan local image
-2. . Pinch zoom and pan Remote image
+2. Pinch zoom and pan Remote image
 
 ## Example
 
