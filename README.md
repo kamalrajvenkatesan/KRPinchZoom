@@ -5,9 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/KRPinchZoom.svg?style=flat)](https://cocoapods.org/pods/KRPinchZoom)
 [![Platform](https://img.shields.io/cocoapods/p/KRPinchZoom.svg?style=flat)](https://cocoapods.org/pods/KRPinchZoom)
 
-## Features
-1. Pinch zoom and pan local image
-2. Pinch zoom and pan Remote image
+<!--## Features-->
+<!--1. Pinch zoom and pan local image-->
+<!--2. Pinch zoom and pan Remote image-->
 
 ## Example
 
