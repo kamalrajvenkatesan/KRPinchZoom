@@ -1,0 +1,6 @@
+framework module KRPinchZoom {
+  umbrella header "KRPinchZoom-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "KRPinchZoom",
+  "version": "0.1.0",
+  "summary": "A short description of KRPinchZoom.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kamalraj.venkatesan/KRPinchZoom",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kamalraj.venkatesan": "kamalrajv3@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/kamalraj.venkatesan/KRPinchZoom.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KRPinchZoom/Classes/**/*"
+}

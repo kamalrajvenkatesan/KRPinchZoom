@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		085EAD60EB7F6F5A96E0143F4DD07B88 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1BBF424A113F2AA8D760E09E3B6ECB69 /* Pods-KRPinchZoom_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DDFB7BC9994AF386FB302B7E2DE787EE /* Pods-KRPinchZoom_Example-dummy.m */; };
+		3359D66372F78C6F1A8CB8177535D97F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		38EB5A30ABF2F743473ADF25A29CBF82 /* KRPinchZoom-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C33BAF45E42EC8B683096D76E5AD99 /* KRPinchZoom-dummy.m */; };
+		5639F75A5BC12B101E7E9AD958543E9C /* Pods-KRPinchZoom_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B44A3A17BE4CEADC1BF9F65EDA4325 /* Pods-KRPinchZoom_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD783555F74417F6ED62238455469704 /* KRPinchZoom-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBD987F63F805960F3BAB3167006863E /* KRPinchZoom-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC3328585B54FB76C43B955F3BA271D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E5A6FE0744C8C2FCF5286EE99E8D54EB /* Pods-KRPinchZoom_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECD11523B1EB5B5D22DFB96D997DEF7 /* Pods-KRPinchZoom_Tests-dummy.m */; };
+		F4C2BB35A61C878F77208AD822EE2FAD /* Pods-KRPinchZoom_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8086BA1AB284D1F5CE75DE7640A1C66 /* Pods-KRPinchZoom_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFCBCA8392F3542280A3BFE9DCE2652B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4F854EE72589D79EB265C7906E0D57 /* ReplaceMe.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8015C40F3B81D610A1C8F031BC2F2DFF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67AD20A5BCECBF10111A9E820E04204E;
+			remoteInfo = KRPinchZoom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013A78A11ED168CCB543A69B7B56195B /* Pods_KRPinchZoom_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KRPinchZoom_Example.framework; path = "Pods-KRPinchZoom_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10C4FF2F6607ACF3E859EDE5E09FCD3A /* Pods-KRPinchZoom_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRPinchZoom_Example-frameworks.sh"; sourceTree = "<group>"; };
+		1438483ADAA235ADA03E9B7ACE8FB46D /* KRPinchZoom.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KRPinchZoom.xcconfig; sourceTree = "<group>"; };
+		183C4E1D997F94C492A404F605AEB530 /* Pods-KRPinchZoom_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRPinchZoom_Tests-resources.sh"; sourceTree = "<group>"; };
+		21C66CE69C8C9FB52FC325C3110DFD19 /* Pods-KRPinchZoom_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRPinchZoom_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2BCBC4134354EACA4C30BDB7D8DA41BE /* Pods-KRPinchZoom_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KRPinchZoom_Tests.modulemap"; sourceTree = "<group>"; };
+		2DE8710AAF489EEAF48A941831E97113 /* Pods-KRPinchZoom_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KRPinchZoom_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2E075A7D307FD7061D66459E45922AEA /* Pods-KRPinchZoom_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRPinchZoom_Example.release.xcconfig"; sourceTree = "<group>"; };
+		3BFC674B3E573FD78D1E3B70F9E6671B /* KRPinchZoom-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRPinchZoom-prefix.pch"; sourceTree = "<group>"; };
+		4ECD11523B1EB5B5D22DFB96D997DEF7 /* Pods-KRPinchZoom_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KRPinchZoom_Tests-dummy.m"; sourceTree = "<group>"; };
+		639F0AD65E5C2421A239E0C456E9E928 /* Pods_KRPinchZoom_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KRPinchZoom_Tests.framework; path = "Pods-KRPinchZoom_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		67E7DA15C04E3ED5D7AD9FECD0266FA1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		745A5C50405CC538A9705A2BE43CCA8B /* KRPinchZoom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KRPinchZoom.framework; path = KRPinchZoom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75B44A3A17BE4CEADC1BF9F65EDA4325 /* Pods-KRPinchZoom_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KRPinchZoom_Example-umbrella.h"; sourceTree = "<group>"; };
+		76968F213CA7A14A15E98E87119215FA /* Pods-KRPinchZoom_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRPinchZoom_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A264B92F5E0E8C4DD74E453BBA48548C /* Pods-KRPinchZoom_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KRPinchZoom_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A387A40E2493308946F609E11D5DC51A /* Pods-KRPinchZoom_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRPinchZoom_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A8ED23F1808152CEF28083EA86714BBF /* Pods-KRPinchZoom_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRPinchZoom_Example-resources.sh"; sourceTree = "<group>"; };
+		AD23C7576D2F035A063501CBF0B217E8 /* Pods-KRPinchZoom_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KRPinchZoom_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B84F46427963D2FF686F124AC5EA5A8B /* KRPinchZoom.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KRPinchZoom.modulemap; sourceTree = "<group>"; };
+		BA69AF08AB3810177FF52FD712AC709A /* Pods-KRPinchZoom_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-KRPinchZoom_Example.modulemap"; sourceTree = "<group>"; };
+		C086B44870D2A8E7A7C47C7A4EC685F3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDFB7BC9994AF386FB302B7E2DE787EE /* Pods-KRPinchZoom_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KRPinchZoom_Example-dummy.m"; sourceTree = "<group>"; };
+		DF4F854EE72589D79EB265C7906E0D57 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = KRPinchZoom/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		E7066A8AFF8BDDF0A3F660DA1A790F67 /* Pods-KRPinchZoom_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KRPinchZoom_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E8086BA1AB284D1F5CE75DE7640A1C66 /* Pods-KRPinchZoom_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KRPinchZoom_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EBD987F63F805960F3BAB3167006863E /* KRPinchZoom-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KRPinchZoom-umbrella.h"; sourceTree = "<group>"; };
+		F69B2F9E17538ECA95164E3AAA1F1187 /* Pods-KRPinchZoom_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KRPinchZoom_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F8C33BAF45E42EC8B683096D76E5AD99 /* KRPinchZoom-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KRPinchZoom-dummy.m"; sourceTree = "<group>"; };
+		F9D75E3E315E41F42DE6BC0B41B4D42E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7422C0313412443369293B4531522958 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3359D66372F78C6F1A8CB8177535D97F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CEB501B45AABB130E04CDCD4B5A35F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085EAD60EB7F6F5A96E0143F4DD07B88 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2180AA5595E308F9B4541E175B8D5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3328585B54FB76C43B955F3BA271D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5DDFA71F27692F1F14F4C156D65D26A8 /* Pods-KRPinchZoom_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C086B44870D2A8E7A7C47C7A4EC685F3 /* Info.plist */,
+				2BCBC4134354EACA4C30BDB7D8DA41BE /* Pods-KRPinchZoom_Tests.modulemap */,
+				2DE8710AAF489EEAF48A941831E97113 /* Pods-KRPinchZoom_Tests-acknowledgements.markdown */,
+				A387A40E2493308946F609E11D5DC51A /* Pods-KRPinchZoom_Tests-acknowledgements.plist */,
+				4ECD11523B1EB5B5D22DFB96D997DEF7 /* Pods-KRPinchZoom_Tests-dummy.m */,
+				E7066A8AFF8BDDF0A3F660DA1A790F67 /* Pods-KRPinchZoom_Tests-frameworks.sh */,
+				183C4E1D997F94C492A404F605AEB530 /* Pods-KRPinchZoom_Tests-resources.sh */,
+				E8086BA1AB284D1F5CE75DE7640A1C66 /* Pods-KRPinchZoom_Tests-umbrella.h */,
+				76968F213CA7A14A15E98E87119215FA /* Pods-KRPinchZoom_Tests.debug.xcconfig */,
+				A264B92F5E0E8C4DD74E453BBA48548C /* Pods-KRPinchZoom_Tests.release.xcconfig */,
+			);
+			name = "Pods-KRPinchZoom_Tests";
+			path = "Target Support Files/Pods-KRPinchZoom_Tests";
+			sourceTree = "<group>";
+		};
+		67B35F0B281FBDBFB1A9DE1344D334EC /* KRPinchZoom */ = {
+			isa = PBXGroup;
+			children = (
+				DF4F854EE72589D79EB265C7906E0D57 /* ReplaceMe.swift */,
+				D410A10628A3CE3D2717829A72EE2A28 /* Support Files */,
+			);
+			name = KRPinchZoom;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				A95C1387BACDE4DC1349C16DFBCE3F32 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CF8A888F54D908CAD9107082AF87DDC7 /* Products */,
+				949C848D7EC048C24BA0D891B973BD09 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		949C848D7EC048C24BA0D891B973BD09 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FFDC426708CE351502F249FD2F081A8B /* Pods-KRPinchZoom_Example */,
+				5DDFA71F27692F1F14F4C156D65D26A8 /* Pods-KRPinchZoom_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A95C1387BACDE4DC1349C16DFBCE3F32 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67B35F0B281FBDBFB1A9DE1344D334EC /* KRPinchZoom */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF8A888F54D908CAD9107082AF87DDC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				745A5C50405CC538A9705A2BE43CCA8B /* KRPinchZoom.framework */,
+				013A78A11ED168CCB543A69B7B56195B /* Pods_KRPinchZoom_Example.framework */,
+				639F0AD65E5C2421A239E0C456E9E928 /* Pods_KRPinchZoom_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D410A10628A3CE3D2717829A72EE2A28 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9D75E3E315E41F42DE6BC0B41B4D42E /* Info.plist */,
+				B84F46427963D2FF686F124AC5EA5A8B /* KRPinchZoom.modulemap */,
+				1438483ADAA235ADA03E9B7ACE8FB46D /* KRPinchZoom.xcconfig */,
+				F8C33BAF45E42EC8B683096D76E5AD99 /* KRPinchZoom-dummy.m */,
+				3BFC674B3E573FD78D1E3B70F9E6671B /* KRPinchZoom-prefix.pch */,
+				EBD987F63F805960F3BAB3167006863E /* KRPinchZoom-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KRPinchZoom";
+			sourceTree = "<group>";
+		};
+		FFDC426708CE351502F249FD2F081A8B /* Pods-KRPinchZoom_Example */ = {
+			isa = PBXGroup;
+			children = (
+				67E7DA15C04E3ED5D7AD9FECD0266FA1 /* Info.plist */,
+				BA69AF08AB3810177FF52FD712AC709A /* Pods-KRPinchZoom_Example.modulemap */,
+				AD23C7576D2F035A063501CBF0B217E8 /* Pods-KRPinchZoom_Example-acknowledgements.markdown */,
+				F69B2F9E17538ECA95164E3AAA1F1187 /* Pods-KRPinchZoom_Example-acknowledgements.plist */,
+				DDFB7BC9994AF386FB302B7E2DE787EE /* Pods-KRPinchZoom_Example-dummy.m */,
+				10C4FF2F6607ACF3E859EDE5E09FCD3A /* Pods-KRPinchZoom_Example-frameworks.sh */,
+				A8ED23F1808152CEF28083EA86714BBF /* Pods-KRPinchZoom_Example-resources.sh */,
+				75B44A3A17BE4CEADC1BF9F65EDA4325 /* Pods-KRPinchZoom_Example-umbrella.h */,
+				21C66CE69C8C9FB52FC325C3110DFD19 /* Pods-KRPinchZoom_Example.debug.xcconfig */,
+				2E075A7D307FD7061D66459E45922AEA /* Pods-KRPinchZoom_Example.release.xcconfig */,
+			);
+			name = "Pods-KRPinchZoom_Example";
+			path = "Target Support Files/Pods-KRPinchZoom_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		90C7427B9A1480A42DE67709757F9154 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C2BB35A61C878F77208AD822EE2FAD /* Pods-KRPinchZoom_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA475DA90139B92F14EB2A10DBBCADCA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5639F75A5BC12B101E7E9AD958543E9C /* Pods-KRPinchZoom_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F390C2C3C2A5AA2D316A4C25BB626901 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD783555F74417F6ED62238455469704 /* KRPinchZoom-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		10458B167184B7A6C4F509A1F3574926 /* Pods-KRPinchZoom_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC4AB0DD470FA034F18EE28F0577C85 /* Build configuration list for PBXNativeTarget "Pods-KRPinchZoom_Example" */;
+			buildPhases = (
+				82677AE4690A29D2AC81CD71B5D8B1A8 /* Sources */,
+				9CEB501B45AABB130E04CDCD4B5A35F4 /* Frameworks */,
+				CA475DA90139B92F14EB2A10DBBCADCA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A060CDF06681D828A19446E5EE67F4DB /* PBXTargetDependency */,
+			);
+			name = "Pods-KRPinchZoom_Example";
+			productName = "Pods-KRPinchZoom_Example";
+			productReference = 013A78A11ED168CCB543A69B7B56195B /* Pods_KRPinchZoom_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		637BBDAD930E3037B0C2D1AB83B176EC /* Pods-KRPinchZoom_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E529CCED53C40D3199940EB5D19B44C8 /* Build configuration list for PBXNativeTarget "Pods-KRPinchZoom_Tests" */;
+			buildPhases = (
+				F0FCFEF986375AEC8AA4D1D82DD6A947 /* Sources */,
+				7422C0313412443369293B4531522958 /* Frameworks */,
+				90C7427B9A1480A42DE67709757F9154 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-KRPinchZoom_Tests";
+			productName = "Pods-KRPinchZoom_Tests";
+			productReference = 639F0AD65E5C2421A239E0C456E9E928 /* Pods_KRPinchZoom_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		67AD20A5BCECBF10111A9E820E04204E /* KRPinchZoom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99AA67765C45F4186F6A263D69A96C56 /* Build configuration list for PBXNativeTarget "KRPinchZoom" */;
+			buildPhases = (
+				EA3340754D64934EA2DBE6103FB0F68B /* Sources */,
+				EE2180AA5595E308F9B4541E175B8D5C /* Frameworks */,
+				F390C2C3C2A5AA2D316A4C25BB626901 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KRPinchZoom;
+			productName = KRPinchZoom;
+			productReference = 745A5C50405CC538A9705A2BE43CCA8B /* KRPinchZoom.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CF8A888F54D908CAD9107082AF87DDC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67AD20A5BCECBF10111A9E820E04204E /* KRPinchZoom */,
+				10458B167184B7A6C4F509A1F3574926 /* Pods-KRPinchZoom_Example */,
+				637BBDAD930E3037B0C2D1AB83B176EC /* Pods-KRPinchZoom_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82677AE4690A29D2AC81CD71B5D8B1A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BBF424A113F2AA8D760E09E3B6ECB69 /* Pods-KRPinchZoom_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3340754D64934EA2DBE6103FB0F68B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38EB5A30ABF2F743473ADF25A29CBF82 /* KRPinchZoom-dummy.m in Sources */,
+				FFCBCA8392F3542280A3BFE9DCE2652B /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0FCFEF986375AEC8AA4D1D82DD6A947 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A6FE0744C8C2FCF5286EE99E8D54EB /* Pods-KRPinchZoom_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A060CDF06681D828A19446E5EE67F4DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KRPinchZoom;
+			target = 67AD20A5BCECBF10111A9E820E04204E /* KRPinchZoom */;
+			targetProxy = 8015C40F3B81D610A1C8F031BC2F2DFF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DE03AC26C7DA24A3E449DE22D51F4F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1438483ADAA235ADA03E9B7ACE8FB46D /* KRPinchZoom.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KRPinchZoom/KRPinchZoom-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRPinchZoom/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KRPinchZoom/KRPinchZoom.modulemap";
+				PRODUCT_NAME = KRPinchZoom;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2899ABDBF654DA69C8C47A1E5AA72A07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1438483ADAA235ADA03E9B7ACE8FB46D /* KRPinchZoom.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KRPinchZoom/KRPinchZoom-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KRPinchZoom/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KRPinchZoom/KRPinchZoom.modulemap";
+				PRODUCT_NAME = KRPinchZoom;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		57BCB1F5CEAE9D07FF5DDB064505FCDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21C66CE69C8C9FB52FC325C3110DFD19 /* Pods-KRPinchZoom_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KRPinchZoom_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KRPinchZoom_Example/Pods-KRPinchZoom_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KRPinchZoom_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		731DC216E1A58545B559F6E0A2418060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B44499EF5B1AE837198F18F5B593D544 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A264B92F5E0E8C4DD74E453BBA48548C /* Pods-KRPinchZoom_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KRPinchZoom_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KRPinchZoom_Tests/Pods-KRPinchZoom_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KRPinchZoom_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C6F409A4F25980BFC43AA32746E92165 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76968F213CA7A14A15E98E87119215FA /* Pods-KRPinchZoom_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KRPinchZoom_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KRPinchZoom_Tests/Pods-KRPinchZoom_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KRPinchZoom_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9787A790E2BE1DEC29593488587505D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E075A7D307FD7061D66459E45922AEA /* Pods-KRPinchZoom_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KRPinchZoom_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KRPinchZoom_Example/Pods-KRPinchZoom_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_KRPinchZoom_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FC4AB0DD470FA034F18EE28F0577C85 /* Build configuration list for PBXNativeTarget "Pods-KRPinchZoom_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57BCB1F5CEAE9D07FF5DDB064505FCDF /* Debug */,
+				D9787A790E2BE1DEC29593488587505D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DA7F43A1D2FA3C74A8C8FC246E1FA6 /* Debug */,
+				731DC216E1A58545B559F6E0A2418060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99AA67765C45F4186F6A263D69A96C56 /* Build configuration list for PBXNativeTarget "KRPinchZoom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2899ABDBF654DA69C8C47A1E5AA72A07 /* Debug */,
+				0DE03AC26C7DA24A3E449DE22D51F4F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E529CCED53C40D3199940EB5D19B44C8 /* Build configuration list for PBXNativeTarget "Pods-KRPinchZoom_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C6F409A4F25980BFC43AA32746E92165 /* Debug */,
+				B44499EF5B1AE837198F18F5B593D544 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
