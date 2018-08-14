@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KRPinchZoom_Example' do
+  pod 'KRPinchZoom', :path => '../'
+
+  target 'KRPinchZoom_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
